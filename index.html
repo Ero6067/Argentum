@@ -1,0 +1,59 @@
+<!-- Kris Lafrance 2017 (c) -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Battleship</title>
+  <link rel="stylesheet" type="text/css" href="css/Battleship.css">
+</head>
+  <body>
+    <div class="container">
+      <div class="title">Argentum<br>
+        <span class="smaller">A Battleship Game
+      </div>
+      <div id="startMenu">
+        <div id="startGame" class="clickable">Start</div>
+      </div>
+      <div class="gamecontainer">
+        <div class="HUD-game">
+          <div id ="gameText">Shots Left</div>
+          <div class="shotNum"></div>
+          <div id="score">Score</div>
+          <div id="scoreNum"></div>
+          <div id="startOverButton" class="clickable"onClick="window.location.reload()">
+            Start<br>over</div>
+        </div>
+        <div class ="table" id="game-area">
+        </div>
+      </div><!--gamecontainer -->
+      <div id="winScreen">
+        <div id="winStatement">You have successfully completed Argentum, Congrats</div>
+        <div id="startOverButton" class="clickable"onClick="window.location.reload()">
+          Start<br>over</div>
+      </div>
+      <div id="loseScreen">
+        <div id="loseStatement">You have been defeated by the enemy fleet, better luck next time</div>
+        <div id="startOverButton" class="clickable"onClick="window.location.reload()">
+          Start<br>over</div>
+      </div>
+      <div class="shipHUD">
+        <div class="ships">
+          <!-- make CSS for the images -->
+          <img class="shipImage5"src="images/BS_5_hits.jpg"></img>
+          <img class="shipImage4"src="images/BS_4_hits_2.jpg"></img>
+          <img class="shipImage3"src="images/BS_4_hits_1.jpg"></img>
+          <img class="shipImage2"src="images/BS_3_hits.jpg"></img>
+          <img class="shipImage1"src="images/BS_2_hits.jpg"></img>
+        </div>
+      </div>
+
+    </div><!--container-->
+    <div id="footer"> VFS - Kris Lafrance - PG10 - 2017
+    </div>
+    <script src="scripts/buzz.min.js"></script>
+    <script src="scripts/Ship.js" defer></script>
+    <script src="scripts/app.js" defer></script>
+
+  </body>
+
+</html>
