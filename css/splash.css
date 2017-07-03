@@ -1,0 +1,24 @@
+@font-face {
+  font-family:"Space";
+  src: url('../fonts/space.otf')
+}
+body{
+background:url("../images/splash.jpg") no-repeat center fixed;
+margin: 0;
+padding:0;
+/*overflow: hidden; */
+display:flex;
+}
+.title{
+  color: white;
+  margin-left: 150px;
+  margin-top:100px;
+  font-size: 64px;
+  line-height: 70%;
+  font-family: 'space';
+  text-align: center;
+  flex-direction: column;
+}
+.smaller  {
+font-size: 30px;
+}
