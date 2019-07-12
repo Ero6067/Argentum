@@ -1,9 +1,16 @@
 # Argentum
-Submitted by: <PG10Kris> Kristopher Lafrance
-Date: <03/07/2017>
-Version: [v1]
-----------
-<A single player battleship game where you only have 50 shots to find all 5 ships>
 
-**How to use**
-Play the game until you either win or lose. To play the game you click on grid cells until you find all the ship locations or you run out of shot.
+Written by Kris Lafrance
+
+Uses HTML5, Javascript, 
+
+# Features
+
+* <Fill me in>
+
+# Run
+
+* `git clone https://github.com/Ero6067/argentum.git`
+* open index.html
+* click on squares on the grid
+* destroy all the ships before you run out of shots
